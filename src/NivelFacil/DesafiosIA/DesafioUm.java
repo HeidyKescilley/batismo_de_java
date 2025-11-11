@@ -1,8 +1,5 @@
-package DesafiosIA;
+package NivelFacil.DesafiosIA;
 
-import Condicoes.IfEElse;
-
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class DesafioUm {
