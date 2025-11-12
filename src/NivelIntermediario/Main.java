@@ -1,5 +1,7 @@
 package NivelIntermediario;
 
+import java.lang.invoke.StringConcatFactory;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -16,6 +18,14 @@ public class Main {
         Sasuke.name = "Sasuke Uchiha";
         Sasuke.age = 18;
         Sasuke.village = "Hidden Leaf Village";
+
+        // Aplicando metodos aos meus objetos
+        Sasuke.SharinganAtivado();
+        String message = Sasuke.EuSouUmNinja();
+        System.out.println(message);
+
+        int ageToHokage = Sasuke.AnosParaSeTornarHokage(30);
+        System.out.println("Você tem: " + Sasuke.age + " e faltam " + ageToHokage + " pra tu virar prefeito.");
 
 
 
