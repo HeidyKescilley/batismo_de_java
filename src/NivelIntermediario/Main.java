@@ -33,5 +33,13 @@ public class Main {
         Hinata.mainFamily = true;
         Hinata.AtivarByakugan();
 
+        Boruto boruto = new Boruto();
+        boruto.name = "Boruta Uzumaki";
+        boruto.age = 9;
+        boruto.village = "Hidden Leaf Village";
+        boruto.AtivarOKarma();
+        boruto.ModoSabioAtivado();
+        boruto.EuSouUmNinja();
+
     }
 }
