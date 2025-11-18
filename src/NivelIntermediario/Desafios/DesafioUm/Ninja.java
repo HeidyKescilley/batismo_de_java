@@ -1,4 +1,4 @@
-package NivelIntermediario.Desafios;
+package NivelIntermediario.Desafios.DesafioUm;
 
 public class Ninja {
     String name;

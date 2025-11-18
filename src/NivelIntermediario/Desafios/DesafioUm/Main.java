@@ -1,4 +1,4 @@
-package NivelIntermediario.Desafios;
+package NivelIntermediario.Desafios.DesafioUm;
 
 public class Main {
     public static void main(String[] args) {
