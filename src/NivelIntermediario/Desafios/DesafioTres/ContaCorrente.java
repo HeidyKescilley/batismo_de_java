@@ -8,7 +8,7 @@ public class ContaCorrente extends ContaBancaria {
 
         System.out.println("Saldo antes do deposito: R$ " + saldo);
 
-        saldo = saldo + valorTaxa;
+        saldo = saldo + valor - valorTaxa;
 
         System.out.println("A taxa de deposito cobrada nessa operação foi de: R$ " + valorTaxa);
         System.out.println("Seu novo saldo é: " + saldo);
